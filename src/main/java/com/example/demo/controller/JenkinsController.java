@@ -8,6 +8,6 @@ public class JenkinsController {
 	
 	@RequestMapping("/")
 	public String checkConnection() {
-		return "<html><body><h1 style=blue:#a80128>Connection Stablished</h1></body></html>";
+		return "<html><body><h1 style=color:blue>Connection Stablished</h1></body></html>";
 	}
 }
